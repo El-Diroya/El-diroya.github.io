@@ -1,0 +1,59 @@
+header {
+	background: linear-gradient(#3a0703, #922d05);
+	text-align: center;
+	padding: 40px;
+	border-radius: 20px;
+}
+article {
+	text-align: left;
+	border:solid 1px grey;
+	border-radius: 10px;
+	margin: 30px;
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding-right: 10%;
+	box-shadow: 2px 2px 5px;
+	margin-right: 5%;
+}
+
+img {
+	float: left;
+	width: 150pt;
+	height: 150pt;
+	padding: 10pt;
+}
+
+
+footer {
+	text-align: center;
+	background: #7C4DFF;
+	background: radial-gradient(#520e0ae1, #9c460d, #e43719);
+	padding: 20px;
+	border-radius: 20px;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table ;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+	*zoom: 1;
+}
+h3{
+	text-align: center;
+}
+body{
+	background-color: rgb(104, 45, 3);
+	background-image: url(/Users/ziyya/Downloads/gambar\ 1.jpg)
+}
+a{
+	text-decoration: none;
+}
+

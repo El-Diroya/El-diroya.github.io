@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+	<form action="login.php" method="post">
+        <h1>FORM PEMBAYARAN LAYANAN KANGCUKUR.ID</h1>
+		<label>Person Name</label>
+		<input type="text" name="person-name" required>
+
+		<br>
+		<label>Gender</label>
+		<input type="radio" name="gender" value="male" checked>Male 
+		<input type="radio" name="gender" value="female">Female
+		<br>
+		<label>JENIS PELAYANAN</label>
+		<input type="checkbox" name="Jenis Pelayanan value="Potong Rambut">Potong Rambut
+		<input type="checkbox" name="Jenis Pelayanan value="Warnai Rambut">Warnai Rambut
+		<input type="checkbox" name="Jenis Pelayanan value="Keramas Rambut">Keramas Rambut		
+		<br>
+		<label>JENIS PAKET</label>
+		<select name="JENIS PAKET">
+			<option value="paket1" selected>Potong + Warnai Rambut</option>
+			<option value="paket2">Potong + Keramas Rambut</option>
+			<option value="paket3">Warnai Rambut + Keramas Rambut</option>
+			<option value="tanpa paket">Tanpa Paket</option>
+			<option value="paket murah">paket siswa dan mahasiswa</option>
+			<option value="paket anak">anak-anak</option>
+
+		</select>
+		<br>
+		<label>SARAN DAN KRITIK</label>
+		<textarea name="comments" rows="3"></textarea>
+		<br>
+		<input type="submit" name="submit" value="Bayar + Kirim">
+		<button name="cancel">
+			<strong>Batalkan!!!</strong> kalo tidak mau memberi Saran dan Kritik
+		</button>
+	</form>
+<footer><a href="indeks.html">Halaman Utama</a></footer>
+
+</body>
+</html>
